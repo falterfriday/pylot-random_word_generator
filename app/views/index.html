@@ -3,6 +3,12 @@
     <link rel="stylesheet" href="/static/css/styles.css" type="text/css">
   </head>
   <body>
-    The best place to start is the "WelcomeController.py" file in app/controllers.
-  </body>
+  <h3>Random Word (attempt # {{ count }})</h3>
+  <div>
+  	<h1>{{ word }}</h1>
+  </div><br>
+  <form action="/">
+  	<input type="submit" name="generate" value="generate">
+  </form>
+ </body>
 </html>

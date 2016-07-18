@@ -1,3 +1,9 @@
 * {
-  font-family: monaco;
+  	font-family: arial;
+	text-align: center;
+
+}
+div {
+	border: solid black 2px;
+	display: inline-block;
 }
